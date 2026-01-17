@@ -1,7 +1,7 @@
 # GNU Android Optimizer (GNU AO)
 
 <p align="center">
-  <img src="logo.jpg" width="400" title="Entendedores entenderão">
+  <img src="logo.png" width="400" title="Entendedores entenderão">
 </p>
 
 **Desenvolvido por MurilooPrDev**
