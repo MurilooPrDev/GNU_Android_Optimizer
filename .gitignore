@@ -1,0 +1,21 @@
+# Binários Compilados
+bin/
+ao_engine
+AndroidO
+
+# Logs de execução
+logs/*.log
+*.log
+
+# Arquivos de Objetos (C++)
+*.o
+*.out
+
+# Arquivos de sistema/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Temporários
+*.tmp
+*.swp
