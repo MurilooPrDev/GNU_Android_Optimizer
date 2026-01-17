@@ -29,6 +29,7 @@ android1clear() {
                 echo " [>] Otimizando RAM: $pkg"
                 am force-stop "$pkg"
                 cmd usage-stats set-standby-bucket "$pkg" restricted
+                sleep 2
             fi
         fi
     done
