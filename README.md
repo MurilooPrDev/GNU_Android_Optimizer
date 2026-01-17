@@ -1,6 +1,10 @@
-# 🚀 GNU Android Optimizer (GNU AO)
+# GNU Android Optimizer (GNU AO)
 
-**Desenvolvido por MurilooPr**
+<p align="center">
+  <img src="logo.jpg" width="400" title="Entendedores entenderão">
+</p>
+
+**Desenvolvido por MurilooPrDev**
 
 O **GNU Android Optimizer** é uma ferramenta de código aberto voltada para usuários avançados que buscam o máximo de performance em dispositivos Android sem comprometer a estabilidade do sistema. Ao contrário de "RAM Boosters" comuns, o GNU AO utiliza comandos de baixo nível e uma lógica inteligente de hibernação para garantir fluidez real.
 
@@ -8,20 +12,20 @@ O **GNU Android Optimizer** é uma ferramenta de código aberto voltada para usu
 
 ## 🧐 Por que o GNU AO foi criado?
 
-A maioria dos otimizadores de Android na Play Store são "placebos": eles apenas fecham apps que o sistema reabre segundos depois, consumindo ainda mais bateria. 
+A maioria dos otimizadores de Android na Play Store são "placebos": eles apenas fecham apps que o sistema reabre segundos depois, consumindo ainda mais bateria e ciclos de CPU.
 
 O **GNU AO** foi criado para:
-1.  **Dar controle real ao usuário:** Nada de processos automáticos obscuros.
-2.  **Eficiência com Android1clear:** Uma lógica que não apenas fecha, mas coloca apps em estado de dormência profunda (*restricted standby*).
+1.  **Dar controle real ao usuário:** Nada de processos automáticos obscuros ou anúncios.
+2.  **Eficiência com Android1clear:** Uma lógica exclusiva que não apenas fecha, mas coloca apps em estado de dormência profunda (*restricted standby*).
 3.  **Transparência GNU:** Código aberto, modular (C++ e Bash) e focado na filosofia Linux de eficiência.
 
 ---
 
 ## 🛠 Estrutura do Projeto
 
-* **Android1clear:** Módulo exclusivo que hiberna apps de terceiros em segundo plano, impedindo que "acordem" sozinhos e consumam RAM desnecessária.
-* **C++ Engine:** Núcleo de alta performance que gerencia limpeza de buffers, logs e otimização de escrita em disco (Trim).
-* **Safety Lock:** Proteção blindada que impede qualquer alteração em serviços vitais como o **Google Play Services**, evitando "bricks" ou instabilidade.
+* **Android1clear:** Módulo exclusivo que hiberna apps de terceiros em segundo plano, impedindo que "acordem" sozinhos.
+* **C++ Engine:** Núcleo de alta performance (compilado com Clang -O3) que gerencia limpeza de buffers, logs e otimização de escrita em disco (Trim).
+* **Safety Lock:** Proteção blindada que impede qualquer alteração em serviços vitais como o **Google Play Services**, evitando instabilidade.
 
 ---
 
@@ -41,7 +45,7 @@ O **GNU AO** foi criado para:
     ```bash
     make
     ```
-3.  Inicie o otimizador:
+3.  Inicie o otimizador através do atalho rápido:
     ```bash
     ./AndroidO
     ```
@@ -50,26 +54,25 @@ O **GNU AO** foi criado para:
 
 ## ⚠️ Avisos Importantes
 
-* **Não apaga nada:** O GNU AO não deleta seus aplicativos. Ele apenas gerencia como eles consomem recursos enquanto não estão em uso.
-* **Segurança:** O script foi desenhado para ignorar pacotes críticos do sistema.
-* **Uso consciente:** Embora seguro, o uso de ferramentas de sistema é de responsabilidade do usuário.
+* **Não apaga nada:** O GNU AO não deleta seus aplicativos nem seus dados.
+* **Segurança:** O script foi desenhado para ignorar pacotes críticos do sistema (Kernel/SystemUI/GMS).
+* **Uso consciente:** O uso de ferramentas de sistema via terminal é de responsabilidade do usuário.
 
 ---
 
 ## 🐛 Reportar Bugs e Sugestões
 
-Encontrou algum comportamento estranho? Tem uma ideia para o módulo `Android1clear`? 
+Encontrou algum comportamento estranho ou tem uma ideia para melhorar o motor C++? 
 **Fale diretamente com o desenvolvedor!**
 
-* **Dev:** MurilooPr
-* **Onde:** Você pode me encontrar no GitHub ou enviar seu feedback para que possamos melhorar o motor C++.
+* **Dev:** MurilooPrDev
+* **GitHub:** [MurilooPrDev](https://github.com/MurilooPrDev)
 
 ---
 
 ## 📄 Licença
 
 Este projeto é distribuído sob a licença **GNU General Public License v3.0**. 
-Livre para modificar, livre para distribuir, desde que mantenha a transparência do código.
 
 ---
-*GNU Android Optimizer - Performance levada a sério.*
+<p align="center"><i>GNU Android Optimizer - Performance levada a sério.</i></p>
